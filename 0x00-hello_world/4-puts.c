@@ -1,13 +1,10 @@
 #include <stdio.h>
 /**
  *
- *  * main - Entry point
- *
- *   *the use function puts 
- *
+ *  * main - Entry poin 
  *    * Return: Always 0 (Success)
  *
- *     */
+ **/
 int main(void)
 
 {

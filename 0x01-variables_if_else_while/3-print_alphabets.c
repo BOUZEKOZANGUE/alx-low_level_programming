@@ -7,14 +7,19 @@
  */
 int main(void)
 {
-	char letter;
+	char c='a';
 
-	for (letter = 'a'; letter <= 'z');
-		putchar(letter);
-	for (letter = 'A'; letter <= 'Z');
-		putchar(letter);
+	while (c <= 'z');
+	{
+		putchar(c);
+		c++;
+	}
+	while (c <= 'Z');
+	{
+		putchar(c);
+		c++;
+	}
 
 	putchar('\n');
-
 	return (0);
 }

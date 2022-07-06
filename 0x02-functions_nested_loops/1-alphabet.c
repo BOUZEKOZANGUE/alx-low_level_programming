@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- * main -use the prototype
- * print_alphabet - the first entrance.
- * only use _putchar twice in your code
+ * print_alphabet - entry point 
  * prints the alphabet in lowercase.
+ * Return: Always (0)
  */
 void print_alphabet(void)
 {

@@ -9,11 +9,11 @@ void print_alphabet_x10(void)
 	char car;
 	int i = 1;
 
-	while( i <= 10)
+	while(i <= 10)
 	{
 		car = 'a';
 
-		while( car <= 'z')
+		while(car <= 'z')
 		{
 			_putchar(car);
 				car++;

@@ -2,7 +2,7 @@
 /**
  * main -main block
  * Description:print _putchar followed on a new line
- * Return (0) Always
+ * Return: always 0
  */
 int main(void)
 {

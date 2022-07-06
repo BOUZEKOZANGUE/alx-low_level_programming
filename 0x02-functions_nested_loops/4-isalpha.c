@@ -5,6 +5,6 @@
  */
 int _isalpha(int c)
 {
-//In the ASCII code the whe have 65-90 lower letter is on 97-122
+/*In the ASCII code the whe have 65-90 lower letter is on 97-122 */
 	return ((c >= 97 && c <= 122) || (c >= 65 && c <= 90));
 }

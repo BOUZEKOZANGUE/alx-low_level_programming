@@ -1,31 +1,24 @@
 #include "main.h"
 /**
  * print_square - check for a digit
- * @n : number of _ to be printed
+ * @n: number of _ to be printed
  * Return: void
  */
 void print_square(int size)
 {
-	int first, second;
+	int i = 0, ii;
 
-	if (size <= 0)
+	while (i < n && n > 0)
 	{
-		_putchar('\n');
-	}
-	else
-	{
-		for (first = 0; first < size; first++)
+		ii = 0;
+		while (ii < n)
 		{
-			for (second = 0; second < size; second++)
-			{
-				_putchar('#');
-			}
-				if (first == size - 1)
-				{	
-					continue;
-				}
-				_putchar('\n');
+			_putchar('#');
+			ii++;
 		}
 		_putchar('\n');
+		i++;
 	}
+	if (i == 0)
+		_putchar('\n');
 }

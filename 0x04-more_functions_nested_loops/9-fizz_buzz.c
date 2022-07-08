@@ -1,14 +1,13 @@
 #include <stdio.h>
-#include "main.h"
 /**
  * main - check the code
  * Return: void
  */
 int main(void)
 {
-	int i = 1;
+	int i;
 
-	while (i <= 100)
+	for (i = 1; i <= 100; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
@@ -24,15 +23,15 @@ int main(void)
 		}
 		else
 		{
-			printf("%i", i);
+			printf("%d", i);
 		}
-		if (i != 100)
+		if (i == 100)
 		{
-			_putchar(' ');
+			continue;
 		}
-		i++;
+		printf(" ");
 	}
-	_putchar('\n');
+	printf('\n');
 
 	return (0);
 }

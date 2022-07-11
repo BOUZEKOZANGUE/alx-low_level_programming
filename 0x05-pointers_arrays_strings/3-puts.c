@@ -3,7 +3,7 @@
 /**
  * _puts -function
  * @str: char pointer
- * Description: function that prints a string, followed by a new line, to stdout.
+ * Description : function that prints a string, followed by a new line.
  * Return:nothing
  */
 void _puts(char *str)

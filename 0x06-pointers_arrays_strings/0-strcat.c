@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * strcat - the function that concatenate a string 
+ * _strcat - the function that concatenate a string 
  * @dest -to a character that will be changed
  * @src -to a character that will be changed
  * return: dest

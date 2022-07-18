@@ -5,6 +5,7 @@
  * @b: The constant byte.
  * @n: Size of buffer to fill.
  * Description: This function fills memory with a constant byte.
+ * Return:(0)Always
  */
 char *_memset(char *s, char b, unsigned int n)
 {

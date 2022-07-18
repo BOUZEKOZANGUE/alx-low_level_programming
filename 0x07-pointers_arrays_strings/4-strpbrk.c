@@ -1,59 +1,30 @@
-s (24 sloc)  419 Bytes
-
 #include "main.h"
 
-
-
 /**
+ * *_strpbrk - main function.
+ * @s: Pointer to the string to search.
+ * @accept: Pointer to set of bytes to find.
  *
- *  * _strpbrk - function that searches a string for any of a set of bytes
+ * Description: This function searches a string for any of a set of bytes.
  *
- *   *
- *
- *    * @s:first occurrence in the string
- *
- *     *
- *
- *      * @accept: matches one of the bytes, or @NULL if no such byte
- *
- *       *
- *
- *        * Return: a pointer to the byte
- *
- *         */
+ * Return: A pointer to the byte in s that matches one of the bytes in accept,
+ * or NULL if no such byte is found.
+ */
 
 char *_strpbrk(char *s, char *accept)
-
 {
+	int i;
 
-		int i;
-
-				while (*s)
-
-							{
-
-											for (i = 0; accept[i]; i++)
-
-															{
-
-																				if (*s == accept[i])
-
-																										return (s);
-
-																							}
-
-														s++;
-
-																}
-
-					return (NULL);
-
+	while (*s)
+	{
+		for (i = 0; accept[i]; i++)
+		{
+			if (accept[i] == *s)
+			{
+				return (s);
+			}
+		}
+		s++;
+	}
+	return (NULL);
 }
-
-Footer
-
-© 2022 GitHub, Inc.
-
-Footer navigation
-
-

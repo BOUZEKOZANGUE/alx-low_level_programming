@@ -23,6 +23,3 @@ char *_strchr(char *s, char c)
 	}
 	return (!c ? s : NULL);
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation

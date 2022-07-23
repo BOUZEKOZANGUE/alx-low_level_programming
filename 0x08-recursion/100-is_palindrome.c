@@ -24,13 +24,14 @@ int pal_checker(char *s, int i, int j)
 			return (1);
 		else
 			return (pal_checker(s, i + 1, j - 1));
-	else 
+	else
 		return (0);
 }
 /**
  * is_palindrome - check if s is palindrome
- * @s: base adress of string
- * Return: 1 if prime, 0 otherwise.
+ * @s: base address for string.
+ *
+ * Return: 1 if n is prime, 0 otherwise.
  */
 int is_palindrome(char *s)
 {
